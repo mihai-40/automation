@@ -2,6 +2,7 @@ package test.java;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.testng.annotations.Test;
 
 public class HomePage {
 
@@ -16,9 +17,12 @@ public class HomePage {
     By Logo = By.xpath("//*[@id='masthead']/div/div/div[1]/a/img");
 
     //functie care verifica ca suntem pe emag
+
     public boolean checkWebsite() {
 
-        return driver.findElement(Logo).isDisplayed();
+       boolean result = driver.findElement(Logo).isDisplayed();
+       if(result) {System.out.print("element was found");}
+       return result;
 
     }
 }
