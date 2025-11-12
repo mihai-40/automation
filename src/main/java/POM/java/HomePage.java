@@ -1,4 +1,4 @@
-package test.java;
+package POM.java;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
