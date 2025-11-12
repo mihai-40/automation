@@ -60,6 +60,12 @@ public class HomePage {
         return (By) acceptCookies;
     }
 
+    public void tearDown(){
+        if(driver != null){
+            driver.quit();
+        }
+    }
+
 }
 
 

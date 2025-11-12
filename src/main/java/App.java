@@ -27,6 +27,7 @@ public class App {
         HomePage homepage = new HomePage(driver);
         assertTrue(homepage.checkWebsite());
         assertTrue(homepage.acceptCookies());
+        homepage.tearDown();
 
 
 
