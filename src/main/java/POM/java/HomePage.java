@@ -12,6 +12,7 @@ import static java.lang.Thread.sleep;
 
 public class HomePage {
 
+
     WebDriver driver;
 
     //Constructor that will be automatically called as soon as the object of the class is created
@@ -48,6 +49,7 @@ public class HomePage {
         wait.until(ExpectedConditions.elementToBeClickable(acceptCookies));
         JavascriptExecutor executor = (JavascriptExecutor)driver;
         executor.executeScript("arguments[0].click();", acceptCookies);
+        System.out.print("cookies accepted");
         return true;
 
 
