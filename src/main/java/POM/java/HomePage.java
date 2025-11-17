@@ -35,7 +35,7 @@ public class HomePage {
     public boolean checkWebsite() {
 
        boolean result = driver.findElement(logo).isDisplayed();
-       if(result) {System.out.print("element was found");}
+       if(result) {System.out.println("element was found");}
        return result;
 
     }
@@ -49,7 +49,7 @@ public class HomePage {
         wait.until(ExpectedConditions.elementToBeClickable(acceptCookies));
         JavascriptExecutor executor = (JavascriptExecutor)driver;
         executor.executeScript("arguments[0].click();", acceptCookies);
-        System.out.print("cookies accepted");
+        System.out.println("cookies accepted");
         return true;
 
 
