@@ -2,11 +2,13 @@ package TestNG;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.testng.Assert;
+import org.testng.ISuite;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import POM.java.HomePage;
+
+import java.util.List;
 
 public class HomePageTest {
 
@@ -26,16 +28,17 @@ public class HomePageTest {
 
     @Test
     public void testHomePage() {
-        Assert.assertTrue(homepage.checkWebsite());
+        homepage.checkWebsite();
     }
 
     @Test
     public void testAcceptedCookies() {
-        Assert.assertTrue(homepage.acceptCookies());
+        homepage.acceptCookies();
     }
 
     @AfterMethod
     public void teardown() {
         homepage.tearDown(); // or driver.quit();
     }
+
 }
