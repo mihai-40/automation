@@ -36,6 +36,10 @@ public class HomePageTest {
         homepage.acceptCookies();
     }
 
+    @Test
+    public void testSearchFunction(){homepage.searchFunction();}
+
+
     @AfterMethod
     public void teardown() {
         homepage.tearDown(); // or driver.quit();
