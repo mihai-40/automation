@@ -4,12 +4,11 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-import org.testng.annotations.Test;
 import org.openqa.selenium.WebElement;
 
 import java.time.Duration;
 
-import static java.lang.Thread.sleep;
+//import static java.lang.Thread.sleep;
 
 public class HomePage {
 
@@ -71,7 +70,6 @@ public class HomePage {
 
         WebDriverWait wait = new WebDriverWait(this.driver, Duration.ofSeconds(5));
         wait.until(ExpectedConditions.elementToBeClickable(addProductButton));
-
 
     }
 

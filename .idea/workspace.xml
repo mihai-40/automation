@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19c300fb-e72c-490c-af12-691e39f25c06" name="Changes" comment="second commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/POM/java/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestNG/LoginPageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/POM/java/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/POM/java/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestNG/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestNG/HomePageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Default Suite/Java Automation Project.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/Java Automation Project.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Default Suite/Java Automation Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/Java Automation Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-TestNG.HomePageTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-TestNG.HomePageTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
