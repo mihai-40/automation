@@ -1,4 +1,5 @@
-package POM.java;
+
+package POM;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -17,3 +18,7 @@ public class LoginPage {
         this.driver = driver;
     }
 }
+    String username = System.getenv("EMAIL_EMAG");
+
+
+
